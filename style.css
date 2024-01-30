@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3498db;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius:50px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #000;
+}
+
+/* Media Query untuk Tablet */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+}
+
+/* Media Query untuk Mobile */
+@media screen and (max-width: 480px) {
+    .container {
+        width: 70%;
+    }
+
+    button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
